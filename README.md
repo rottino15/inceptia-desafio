@@ -61,3 +61,13 @@ agent_challenge/
 ├── requirements.txt
 └── README.md
 ```
+
+## How to use this repository:
+### Prompt
+Modify the PROMPT_TEMPLATE in agent_config.py
+### Tools
+Create neccesary tools inside tools.py
+### Chat with your agent to see if it works!
+```bash
+python3 main.py
+```
