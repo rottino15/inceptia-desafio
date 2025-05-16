@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchain-ollama
+python-dotenv
+langchain-core>=0.1.43
+langchain-community>=0.0.37
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+pandas>=2.0.0
+numpy
+pickle

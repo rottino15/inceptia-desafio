@@ -1,0 +1,33 @@
+[
+  {
+    "dni": "32789123",
+    "nombre": "Lucía Gómez",
+    "compras": [
+      {
+        "codigo de compra": "12",
+        "producto": "Notebook Lenovo IdeaPad 3",
+        "fecha": "2024-12-15",
+        "entregado": false
+      },
+      {
+        "codigo de compra": "14",
+        "producto": "Monitor Samsung 24''",
+        "fecha": "2024-10-02",
+        "entregado": true
+      }
+    ]
+  },
+  {
+    "dni": "39876543",
+    "nombre": "Sofía Ramírez",
+    "compras": [
+      {
+        "codigo de compra": "12",
+        "producto": "Smart TV LG 55'' 4K",
+        "fecha": "2025-01-20",
+        "entregado": false
+      }
+    ]
+  }
+]
+
