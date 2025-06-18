@@ -34,6 +34,8 @@ PROMPT_TEMPLATE = """Eres un asistente comercial que ayuda a los usuarios a enco
 
 
 def get_compiled_graph():
+    """Crea y devuelve el grafo de ejecución del agente."""
+
     llm = ChatOllama(model="mistral", temperature=0.5)
 
     agent = create_react_agent(
@@ -43,4 +45,3 @@ def get_compiled_graph():
         checkpointer=memory,
     )
     return agent
-
