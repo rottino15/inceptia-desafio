@@ -1,6 +1,9 @@
 import uuid
 
-from langchain_core.messages import HumanMessage
+try:
+    from langchain_core.messages import HumanMessage
+except ImportError:  # pragma: no cover - fallback for older langchain versions
+    from langchain.schema import HumanMessage
 
 from agent_config import get_compiled_graph
 
